@@ -19,7 +19,7 @@ const titleCased = () => {
     }
     return sentence.join(" ");
     let words = tutorial.split(" ");
-    let titleCasedSentence = 
+    let titleCasedSentence =
       words.map(word => word.charAt(0).toUpperCase() + word.slice(1))
     let response = titleCasedSentence.join(" ");
     return response
